@@ -18,9 +18,23 @@ npm start
 ## Create Post
 
 Endpoint: POST /post
-Body: { text: "post text here", user: "User name here" }
+Body: 
+```javascript
+{ 
+  text: "post text here", 
+  user: "User name here" 
+}
+```
 
 ## Get Post
 
 Endpoint: GET /post
-Return Body: [{ text: "post text here", user: "User name here" }, ...]
+Return Body: 
+```javascript
+[
+  { 
+    text: "post text here", 
+    user: "User name here" 
+   }, ...
+]
+```
